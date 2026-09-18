@@ -1,0 +1,1439 @@
+table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f4f8f5;
+}
+td{
+    border: 1px solid #198754;
+    padding: 15px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #198754;
+    font-size: 32px;
+    margin: 20px 0;
+    animation: titleMove 2s ease-in-out;
+}
+@keyframes titleMove {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+td a{
+    display: inline-block;
+    color: #198754;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+td a:hover{
+    color: white;
+    background-color: #198754;
+    transform: scale(1.1);
+    border-radius: 8px;
+}
+td a {
+    display: inline-block;
+    min-width: 180px;
+    padding: 12px 20px;
+    background-color: #f4c542;
+    color: #222;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+td a:hover {
+    background-color: #198754;
+    color: white;
+    transform: scale(1.1);
+    border-radius: 8px;
+}
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.logo-section h1 {
+    color: #198754;
+    font-size: 32px;
+    animation: titleMove 2s ease-in-out;
+}
+
+td a {
+    display: inline-block;
+    min-width: 180px;
+    padding: 12px 20px;
+    background-color: #f4c542;
+    color: #222;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+td a:hover {
+    background-color: #198754;
+    color: white;
+    transform: scale(1.05);
+}
+td a[href="index.html"]::before {
+    content: "⌂ ";
+}
+
+td a[href="about.html"]::before {
+    content: "👤 ";
+}
+
+td a[href="service.html"]::before {
+    content: "⚡ ";
+}
+
+td a[href="contact us.html"]::before {
+    content: "✉ ";
+}
+
+td a[href="enquire.html"]::before {
+    content: "📝 ";
+}
+table tr {
+    transition: 0.3s;
+}
+
+table tr:hover {
+    background-color: #f8f4df;
+}
+a[href="index.html"] {
+    background-color: #198754;
+    color: white;
+}
+
+a[href="index.html"]:hover {
+    background-color: #f4c542;
+    color: #222;
+}
+footer {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    .logo-section {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .logo-section h1 {
+        font-size: 24px;
+    }
+
+    td a {
+        min-width: 140px;
+        font-size: 18px;
+    }
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    transform: rotate(5deg) scale(1.05);
+}
+td a {
+    animation: linkAppear 1s ease-in-out;
+}
+
+@keyframes linkAppear {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+td {
+    padding: 20px;
+}
+table {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+table {
+    transition: 0.3s;
+}
+
+table:hover {
+    transform: translateY(-3px);
+}
+td a::before {
+    font-size: 22px;
+}
+td a::before {
+    margin-right: 8px;
+}
+td:hover {
+    background-color: #fff8dc;
+}
+td a {
+    letter-spacing: 0.5px;
+}
+td a {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+td a {
+    transition: 0.3s ease;
+}
+.logo {
+    width: 170px;
+    height: 170px;
+}
+.logo {
+    transition: 0.5s ease;
+}
+.logo-section h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+td a {
+    border-radius: 12px;
+}
+td a:active {
+    transform: scale(0.95);
+}
+td:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease;
+}
+td a {
+    font-weight: 700;
+}
+body {
+    animation: pageFade 1s ease-in;
+}
+
+@keyframes pageFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+}
+table {
+    max-width: 1200px;
+}
+@media (max-width: 400px) {
+    .logo-section h1 {
+        font-size: 28px;
+    }
+
+    td a {
+        min-width: 120px;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+.logo-section h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+h2 {
+    text-align: center;
+    color: #198754;
+    font-size: 30px;
+    margin: 30px 0 20px;
+}
+body > p {
+    max-width: 900px;
+    margin: 0 auto 25px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo-section h1 {
+    margin: 0;
+}
+.logo-section {
+    background-color: #198754;
+}
+.logo-section h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+th a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #f4c542;
+    color: #222;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+th a:hover {
+    background-color: #198754;
+    color: white;
+    transform: scale(1.05);
+}
+.mission-vision {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.mission,
+.vision {
+    flex: 1;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #198754;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mission p,
+.vision p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+.mission h3,
+.vision h3 {
+    color: #198754;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.mission,
+.vision {
+    transition: 0.3s ease;
+}
+
+.mission:hover,
+.vision:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 600px) {
+    .mission-vision {
+        flex-direction: column;
+    }
+}
+h2 {
+    border-bottom: 3px solid #f4c542;
+    padding-bottom: 10px;
+}
+body > table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+th a[href="index.html"]::before {
+    content: "⌂ ";
+}
+
+th a[href="About.html"]::before {
+    content: "👤 ";
+}
+
+th a[href="service.html"]::before {
+    content: "⚡ ";
+}
+
+th a[href="enquire.html"]::before {
+    content: "📝 ";
+}
+
+th a[href="contact us.html"]::before {
+    content: "✉ ";
+}
+body > p {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+th a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.mission,
+.vision {
+    background-color: #f4f8f5;
+}
+@media (max-width: 600px) {
+    body > p {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+h2 {
+    margin-bottom: 30px;
+}
+th a {
+    min-width: 150px;
+}
+body > table {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.mission p,
+.vision p {
+    color: #333;
+}
+.mission,
+.vision {
+    border-top: 4px solid #f4c542;
+}
+.mission h3,
+.vision h3 {
+    text-transform: uppercase;
+}
+.mission p,
+.vision p {
+    margin: 0;
+}
+.mission,
+.vision {
+    animation: boxAppear 1s ease-in-out;
+}
+
+@keyframes boxAppear {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.mission:hover,
+.vision:hover {
+    border-color: #f4c542;
+}
+th a[href="About.html"] {
+    background-color: #198754;
+    color: white;
+}
+
+th a[href="About.html"]:hover {
+    background-color: #f4c542;
+    color: #222;
+}
+body > table th a[href="index.html"] {
+    background-color: #f4c542;
+    color: #222;
+}
+footer {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+footer {
+    border-top: 3px solid #f4c542;
+}
+.mission p,
+.vision p {
+    transition: 0.3s ease;
+}
+
+.mission:hover p,
+.vision:hover p {
+    transform: scale(1.02);
+}
+@media (max-width: 600px) {
+    .logo-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+h2 {
+    animation: headingAppear 1s ease-in-out;
+}
+
+@keyframes headingAppear {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body > table {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+body > table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+body > p {
+    border-left: 4px solid #f4c542;
+}
+th a {
+    transition: 0.3s ease;
+}
+
+th a:hover {
+    transform: translateY(-2px);
+}
+body > p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+body > table {
+    border-top: 3px solid #f4c542;
+}
+body {
+    background-color: #f4f8f5;
+}
+body > p {
+    width: 90%;
+}
+th a {
+    margin: 3px;
+}
+.mission h3,
+.vision h3 {
+    letter-spacing: 1px;
+}
+h2 {
+    transition: 0.3s ease;
+}
+
+h2:hover {
+    transform: scale(1.02);
+}
+.faq {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.faq-item {
+    background-color: white;
+    border: 2px solid #198754;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.faq-item h3 {
+    color: #198754;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    margin: 0;
+}
+form {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+form table {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #198754;
+    border-radius: 6px;
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: #198754;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+}
+input[type="submit"]:hover {
+    background-color: #f4c542;
+    color: #222;
+    transform: scale(1.05);
+}
+form label {
+    font-weight: bold;
+    color: #333;
+}
+form td {
+    padding: 12px;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #f4c542;
+}
+.faq-item {
+    transition: 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 600px) {
+    .faq {
+        width: 100%;
+    }
+
+    .faq-item {
+        padding: 15px;
+    }
+}
+.faq + h2 {
+    color: #198754;
+}
+body h2 {
+    color: #198754;
+    text-align: center;
+}
+body h2 {
+    border-bottom: 3px solid #f4c542;
+    padding-bottom: 10px;
+}
+.faq-item {
+    animation: faqAppear 0.8s ease-in-out;
+}
+
+@keyframes faqAppear {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+
+    form table {
+        width: 100%;
+    }
+
+    form td {
+        display: block;
+        width: 100%;
+    }
+}
+th a[href="enquire.html"] {
+    background-color: #198754;
+    color: white;
+}
+
+body > table th a[href="index.html"],
+body > table th a[href="About.html"] {
+    background-color: #f4c542;
+    color: #222;
+}
+h2 {
+    font-size: 30px;
+    margin: 30px 0;
+}
+form table {
+    border: 2px solid #f4c542;
+}
+.faq-item h3 {
+    font-size: 20px;
+}
+.faq {
+    margin-bottom: 40px;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    background-color: #198754;
+}
+.logo {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+.logo-section h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+@media (max-width: 600px) {
+    .logo-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 130px;
+        height: 130px;
+    }
+}
+th a[href="index.html"]::before {
+    content: "⌂ ";
+}
+
+th a[href="About.html"]::before {
+    content: "👤 ";
+}
+
+th a[href="service.html"]::before {
+    content: "⚡ ";
+}
+
+th a[href="enquire.html"]::before {
+    content: "📝 ";
+}
+
+th a[href="contact us.html"]::before {
+    content: "✉ ";
+}
+.logo-section {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+form input {
+    font-size: 16px;
+}
+.faq-item h3 {
+    transition: 0.3s ease;
+}
+
+.faq-item:hover h3 {
+    color: #f4c542;
+}
+input[type="reset"] {
+    background-color: #f4c542;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #198754;
+    color: white;
+    transform: scale(1.05);
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #198754;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: vertical;
+}
+textarea:focus {
+    outline: none;
+    border: 2px solid #f4c542;
+}
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+}
+form td:first-child {
+    width: 30%;
+    text-align: right;
+}
+
+.faq-item p {
+    color: #555;
+    line-height: 1.6;
+}
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+}
+th a[href="about.html"] {
+    background-color: #198754;
+    color: white;
+}
+
+th a[href="about.html"]:hover {
+    background-color: #f4c542;
+    color: #222;
+}
+body > table th a[href="index.html"],
+body > table th a[href="About.html"],
+body > table th a[href="enquire.html"],
+body > table th a[href="contact us.html"] {
+    background-color: #f4c542;
+    color: #222;
+}
+body > table th a[href="service.html"] {
+    background-color: #198754 !important;
+    color: white !important;
+}
+body h2 {
+    color: #198754;
+    text-align: center;
+    border-bottom: 3px solid #f4c542;
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin: 30px 0;
+}
+body h3 {
+    color: #198754;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+body ul {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #198754;
+    border-radius: 10px;
+}
+body li {
+    font-size: 17px;
+    padding: 8px;
+    color: #333;
+}
+body li:hover {
+    background-color: #fff8dc;
+    color: #198754;
+    transition: 0.3s ease;
+}
+body h3:nth-of-type(1)::before {
+    content: "💡 ";
+}
+
+body h3:nth-of-type(2)::before {
+    content: "🔧 ";
+}
+
+body h3:nth-of-type(3)::before {
+    content: "🛠️ ";
+}
+
+body h3:nth-of-type(4)::before {
+    content: "🔍 ";
+}
+body ul {
+    transition: 0.3s ease;
+}
+
+body ul:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+body ul li {
+    list-style: none;
+    text-align: center;
+}
+.services-intro {
+    text-align: center;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto 30px;
+    color: #555;
+}
+body ul {
+    border-top: 4px solid #f4c542;
+}
+@media (max-width: 600px) {
+    .services-intro {
+        font-size: 16px;
+        width: 90%;
+    }
+}
+body ul {
+    animation: serviceAppear 0.8s ease-in-out;
+}
+
+@keyframes serviceAppear {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body h3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+body > table th a[href="index.html"],
+body > table th a[href="About.html"],
+body > table th a[href="service.html"],
+body > table th a[href="enquire.html"] {
+    background-color: #f4c542;
+    color: #222;
+}
+body > table th a[href="service.html"] {
+    background-color: #f4c542 !important;
+    color: #222 !important;
+}
+
+
+
+.contact-table td {
+    padding: 15px;
+    border: 1px solid #198754;
+    font-size: 17px;
+}
+.contact-table td:first-child {
+    font-weight: bold;
+    color: #198754;
+    width: 35%;
+}
+.contact-table td:first-child {
+    font-weight: bold;
+    color: #198754;
+    width: 35%;
+}
+.contact-table tr:hover {
+    background-color: #fff8dc;
+    transition: 0.3s ease;
+}
+.contact-table tr:nth-child(1) td:first-child::before {
+    content: "📞 ";
+}
+
+.contact-table tr:nth-child(2) td:first-child::before {
+    content: "✉️ ";
+}
+
+.contact-table tr:nth-child(3) td:first-child::before {
+    content: "📍 ";
+}
+.navigation-table th a {
+    background-color: #f4c542 !important;
+    color: #222 !important;
+    display: block;
+    text-decoration: none;
+    padding: 12px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.navigation-table th a:hover {
+    background-color: #198754 !important;
+    color: white !important;
+    transform: scale(1.05);
+}
+
+.navigation-table th a:active {
+    background-color: #198754 !important;
+    color: white !important;
+}
+
+.navigation-table th a.active {
+    background-color: #198754 !important;
+    color: white !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.logo-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 170px;
+    width: 100%;
+    height: auto;
+}
+
+.logo-section h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.navigation-table {
+    width: 100% !important;
+    max-width: 1200px;
+    margin: 20px auto !important;
+    table-layout: fixed;
+}
+
+.navigation-table th {
+    width: 20%;
+    padding: 5px;
+}
+
+.navigation-table th a {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    padding: 12px 5px;
+    font-size: 18px;
+    white-space: normal;
+    text-align: center;
+}
+
+
+table {
+    max-width: 1200px;
+    width: 90%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    max-width: 100%;
+}
+
+p {
+    max-width: 100%;
+}
+
+
+form {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+form table {
+    width: 100%;
+}
+
+input,
+textarea {
+    max-width: 100%;
+}
+
+
+body ul {
+    width: 80%;
+    max-width: 700px;
+}
+
+.mission-vision {
+    width: 90%;
+    max-width: 900px;
+}
+
+
+.contact-table {
+    width: 80%;
+    max-width: 700px;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .logo-section {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .logo-section h1 {
+        font-size: 30px;
+    }
+
+    .navigation-table th a {
+        font-size: 16px;
+        padding: 10px 3px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    body ul {
+        width: 90%;
+    }
+
+    .contact-table {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 5px;
+    }
+
+
+    .logo-section {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    .logo-section h1 {
+        font-size: 24px;
+    }
+
+    
+    .navigation-table {
+        width: 100% !important;
+        margin: 10px auto !important;
+    }
+
+    .navigation-table th {
+        padding: 2px;
+    }
+
+    .navigation-table th a {
+        font-size: 12px;
+        padding: 8px 2px;
+        min-width: 0;
+        border-radius: 5px;
+    }
+
+
+    h2 {
+        font-size: 22px;
+        margin: 20px 5px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+
+    body ul {
+        width: 95%;
+        padding: 10px;
+    }
+
+    body li {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .services-intro {
+        width: 95%;
+        font-size: 15px;
+    }
+
+
+    .mission-vision {
+        width: 95%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mission,
+    .vision {
+        width: 100%;
+        padding: 15px;
+    }
+
+
+    form {
+        width: 100%;
+    }
+
+    form table {
+        width: 100%;
+    }
+
+    form td {
+        display: block;
+        width: 100% !important;
+        text-align: left !important;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 120px;
+    }
+
+
+    .faq {
+        width: 95%;
+    }
+
+    .faq-item {
+        padding: 15px;
+    }
+
+    .faq-item h3 {
+        font-size: 18px;
+    }
+
+
+    .contact-table {
+        width: 100%;
+    }
+
+    .contact-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .logo {
+        width: 90px;
+    }
+
+    .logo-section h1 {
+        font-size: 21px;
+    }
+
+    .navigation-table th a {
+        font-size: 10px;
+        padding: 7px 1px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    body li {
+        font-size: 14px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 105px;
+        font-size: 13px;
+    }
+}
+.logo-section {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 1000;
+    background-color: #198754 !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-table {
+    position: fixed !important;
+    top: 215px;
+    left: 5%;
+    width: 90% !important;
+    z-index: 1001;
+
+    margin: 0 !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.navigation-table th {
+    background-color: white !important;
+    border: none !important;
+    padding: 5px;
+}
+.navigation-table th a {
+    display: block;
+    width: 100%;
+    background-color: #f4c542 !important;
+    color: #222 !important;
+    padding: 12px 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.navigation-table th a:hover,
+.navigation-table th a.active {
+    background-color: #198754 !important;
+    color: white !important;
+}
+body {
+    padding-top: 310px !important;
+}
+@media (max-width: 900px) {
+
+    .logo-section {
+        height: 180px;
+    }
+
+    .navigation-table {
+        top: 195px;
+    }
+
+    body {
+        padding-top: 285px !important;
+    }
+
+}
+@media (max-width: 600px) {
+
+    .logo-section {
+        height: 170px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-section h1 {
+        font-size: 22px;
+    }
+
+    .navigation-table {
+        top: 180px;
+        left: 2%;
+        width: 96% !important;
+    }
+
+    .navigation-table th {
+        padding: 2px;
+    }
+
+    .navigation-table th a {
+        font-size: 11px;
+        padding: 8px 2px;
+    }
+
+    body {
+        padding-top: 265px !important;
+    }
+
+}
+
