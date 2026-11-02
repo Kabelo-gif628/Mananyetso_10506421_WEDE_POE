@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K&T Electricians</title>
-    <link rel="stylesheet" href="C:\Users\Lenovo\Documents\WEDE5020\Mananyetso_10506421_ WEDE5020_POE\css\style.css">
+    <title>K&T Electricians | Electrical Services</title>
+    
+<meta name="description" content="Contact K&T Electricians for electrical enquiries, service information, and assistance.">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
         <div class="logo-section">
-    <img class="logo" src="C:\Users\Lenovo\Documents\WEDE5020\Mananyetso_10506421_ WEDE5020_POE\Images\Logo.png">
+    <img class="logo" src="Images/Logo.png" alt="K&T Electricians Logo">
     <h1>K&T Electricians</h1>
 </div>
          <table class="navigation-table" colspan="2" align="center">
@@ -37,12 +42,47 @@
             <tr>
                 <td>Address:</td>
                 
-                <td>234 Tshepos street</br>
+                <td></br>
+                    234 Tshepos street
                 Silverton</br>
                 Pretoria</br>
                 0122</br>
             </tr>
           </table>
+          
+
+
+
+<form id="contactForm">
+    <table align="center">
+        <tr>
+            <td><label for="contactName">Name:</label></td>
+            <td><input type="text" id="contactName" name="name" required></td>
+        </tr>
+        <tr>
+            <td><label for="contactEmail">Email:</label></td>
+            <td><input type="email" id="contactEmail" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="contactMessage">Message:</label></td>
+            <td><textarea id="contactMessage" name="message" rows="5" required></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+    </table>
+
+
+</form>
+</form>
+
+<section class="map-section">
+    <h2>Find Us</h2>
+    <div id="map"></div>
+</section>
           <footer>
     <p>© 2026 K&T Electricians. All Rights Reserved.</p>
 </footer>
